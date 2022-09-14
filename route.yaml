@@ -8,9 +8,9 @@ spec:
   host: nginx-edu5.apps.211-34-231-82.nip.io
   port:
     targetPort: https
-  tls:
-    insecureEdgeTerminationPolicy: Redirect
-    termination: passthrough
+  #tls:
+  #  insecureEdgeTerminationPolicy: Redirect
+  #  termination: passthrough
   to:
     kind: Service
     name: mynginx
